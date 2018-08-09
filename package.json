@@ -1,0 +1,22 @@
+{
+  "name": "pdf-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "~1.18.3",
+    "express": "~4.16.3",
+    "lodash": "~4.17.10",
+    "puppeteer": "~1.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "~1.18.3"
+  }
+}
